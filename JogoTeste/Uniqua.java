@@ -32,14 +32,14 @@ public class Uniqua extends Actor
     else if (Greenfoot.isKeyDown("right")){
         this.setLocation(this.getX() + speed, this.getY());
     }
-    else if (Greenfoot.isKeyDown("l") && (sTimer == 0)){
+    else if (Greenfoot.isKeyDown("p") && (sTimer == 0)){
         sTimer ++;
         efeito.play();
         getWorld().addObject(new bola(), getX() - 100, getY() + 30);
     }
     
     else{
-        if(!Greenfoot.isKeyDown("l")){
+        if(!Greenfoot.isKeyDown("p")){
             sTimer = 0;
         }
     }

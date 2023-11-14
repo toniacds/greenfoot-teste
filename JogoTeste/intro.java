@@ -22,19 +22,20 @@ public class intro extends World
 
     public void act(){
         //dialogo tairone
-        if (Greenfoot.isKeyDown("enter")){
+        if (Greenfoot.isKeyDown("a")){
             setBackground(new GreenfootImage("2.png"));
         }
         //dialogo austin
-        if (Greenfoot.isKeyDown("a")){
+        if (Greenfoot.isKeyDown("s")){
             setBackground(new GreenfootImage("3.png"));
         }
         //iniciar jogo
-        if (Greenfoot.isKeyDown("s")){
+        if (Greenfoot.isKeyDown("d")){
             mundo world = new mundo();
             Greenfoot.setWorld(world);
         }
     }
+    
     /**
      * Prepara o mundo para o início do programa.
      * Ou seja: criar os objetos iniciais e adicioná-los ao mundo.

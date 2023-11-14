@@ -44,10 +44,6 @@ public class mundo extends World
         addObject(uniqua,856,404);
         uniqua2 uniqua2 = new uniqua2();
         addObject(uniqua2,497,213);
-        tasha tasha = new tasha();
-        addObject(tasha,152,544);
-        Fogo fogo = new Fogo();
-        addObject(fogo,315,552);
         uniqua.setLocation(649,510);
         bola bola = new bola();
         addObject(bola,649,510);
@@ -57,10 +53,6 @@ public class mundo extends World
         uniqua.setLocation(468,571);
         uniqua.setLocation(836,410);
         bola.setLocation(723,424);
-        fogo.setLocation(328,558);
-        tasha.setLocation(276,549);
-        tasha.setLocation(116,525);
-        fogo.setLocation(268,529);
         uniqua.setLocation(746,466);
         uniqua.setLocation(885,447);
         uniqua.setLocation(732,469);
@@ -71,6 +63,11 @@ public class mundo extends World
         removeObject(counter);
         Counter2 counter22 = new Counter2();
         addObject(counter22,920,36);
+        uniqua.setLocation(740,443);
+        removeObject(bola);
+        tasha tasha = new tasha();
+        addObject(tasha,170,476);
+        uniqua.setLocation(788,466);
     }
 }
 
